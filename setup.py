@@ -22,6 +22,7 @@ setup(
     ],
     python_requires='>=3.6',
     packages=find_packages(),
+    include_package_data=True,
     entry_points={
         'console_scripts': [
             'todo=todo:main'
