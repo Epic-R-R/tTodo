@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='Terminal Todo',
-    version='0.0.2',
+    version='0.0.1',
     description='command-line todo tools to keeping the track of your tasks',
     long_description=long_description,
     keywords='todo list task management track',

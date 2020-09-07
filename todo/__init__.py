@@ -13,10 +13,9 @@ def check_python_version():
         from todo.utils.styles import Fore, Style
         safe_print(
 '''
-{fail}{bold}\tUh oh!{reset}
-{warning}You need Python 3 to use this program. 😕
+{warning}You need Python 3 to use this program.
 {info}Download Python: {blue}https://www.python.org/downloads
-{info}Learn more: {blue}https://github.com/francoischalifour/todo-cli{reset}
+{info}Learn more: {blue}https://github.com/Epic-R-R/tTodo{reset}
 '''
             .format(
                 fail=Fore.FAIL,
