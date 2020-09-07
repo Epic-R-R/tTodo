@@ -26,7 +26,7 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     python_requires='>=3.6',
-    packages=['Teminal Todo'],
+    packages=find_packages(),
     include_package_data=True,
     entry_points={
         'console_scripts': [
