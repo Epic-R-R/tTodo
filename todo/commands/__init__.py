@@ -12,7 +12,7 @@ from todo.commands.delete import Delete
 from todo.commands.rename import Rename
 
 commands_dict = {
-    'init': Init.run,
+    'project': Init.run,
     'list': List.run,
     'ls': List.run,
     'add': Add.run,

@@ -44,7 +44,7 @@ class ListCommand(Command):
     def print_list(self, todos=[]):
         if not todos:
             safe_print(
-                '{green}Congrats! 🙂{reset}'
+                '{green}Congrats!{reset}'
                     .format(
                     green=Fore.GREEN,
                     reset=Style.RESET_ALL,

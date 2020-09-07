@@ -2,3 +2,5 @@
 /build
 /dist
 /Terminal_Todo.egg-info
+/.gitignore
+/tTodo.egg-info

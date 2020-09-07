@@ -15,7 +15,7 @@ class InitCommand(Command):
     def does_already_exist(self):
         if os.path.isfile(self.PROJECT_FILE):
             sys.stdout.write(
-                '{warning}A project called {green}{name}{warning} already exists, erase it?{reset} (y/n) '
+                '{warning}project {green}{name}{warning} already exists,\nDelete it?{reset} (y/n) '
                 .format(
                     name=self.get_project_name(),
                     green=Fore.GREEN,

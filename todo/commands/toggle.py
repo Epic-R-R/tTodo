@@ -10,7 +10,7 @@ from todo.utils.styles import Fore, Style
 
 class ToggleCommand(Command):
     def get_subtitle(self):
-        return 'Toggle items'
+        return 'Items'
 
     def check_by_item(self, item):
         item_toggled = item.copy()

@@ -6,7 +6,7 @@ def safe_print(s):
     except UnicodeEncodeError:
         print(
             s
-            .replace('✓', '-') # change the checkmark symbol
+            .replace('✓', '-')
             .encode('utf8')
             .decode(sys.stdout.encoding)
         )
